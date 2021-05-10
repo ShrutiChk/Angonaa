@@ -1,2 +1,2 @@
 # Angonaa
-An android app
+An android app for women safety
