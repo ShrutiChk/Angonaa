@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.angonaa.Activity.StopSMSActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sending SMS to your emergency list. Click here to stop: "
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/safeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I'm safe"
+        android:textSize="20sp"
+        android:background="@color/colorPurple"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        />
+    <TextView
+        android:id="@+id/textCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calling in:"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/callTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="0"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="To cancle call click here:"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/cancleCallButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Call"
+        android:textSize="20sp"
+        android:background="@color/colorPurple"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

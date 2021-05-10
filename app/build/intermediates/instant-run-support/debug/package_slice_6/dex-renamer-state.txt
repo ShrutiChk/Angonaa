@@ -1,0 +1,4 @@
+#Tue Jan 21 20:59:07 BDT 2020
+base.0=C\:\\Users\\Lenovo\\Downloads\\Angonaa-20180622T160704Z-001\\Angonaa\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\25
+path.0=classes.dex
+renamed.0=classes.dex
